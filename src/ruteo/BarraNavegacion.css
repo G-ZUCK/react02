@@ -1,0 +1,19 @@
+nav ul {display: inline; list-style: none; }
+nav li {padding-right: 10px;}
+#login, #menu {padding: 10px;}
+
+#login{ background: lightgrey; }
+#login ul li{float: inline-end;}
+
+#menu{background: silver}
+#menu ul li{float: inline-start;}
+
+#sis {background: yellowgreen;}
+
+#file {background: coral}  /* mediumorchid; darkgreen*/
+
+#public { background:  slateblue; }
+
+@media (max-width: 600px){
+  #login, #menu{display: grid; }
+}
